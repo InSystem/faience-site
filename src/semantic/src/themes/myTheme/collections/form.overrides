@@ -1,0 +1,27 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.form .field > label {
+  font-size: 12px;
+}
+
+.ui.form input, .ui.form textarea {
+    border-radius: 0;
+}
+
+.form textarea:focus, .form input:focus {
+    border-color: #4fbdc0 !important;
+}
+
+ui.form .field .ui.input input, .ui.form .fields .field .ui.input input {
+    width: 100%;
+}
+
+.ui.form .field.field input:-webkit-autofill:focus, .ui.form textarea:-webkit-autofill:focus  {
+  border-color: #4fbdc0  !important;
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url] {
+        border-radius: 0 !important;
+}

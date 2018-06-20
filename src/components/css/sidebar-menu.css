@@ -1,0 +1,109 @@
+
+
+.sidebar_hidden {
+    flex: 0 0 0;
+}
+
+.sidebar-fixed {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+}
+
+
+.menu-header {
+    font-size: 41px;
+    text-transform: uppercase;
+    line-height: 43px;
+    letter-spacing: 2px;
+}
+
+.menu-sub-header {
+    margin-top: 8px;
+    margin-bottom: 45px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu-sub-header,
+.sidebar-contacts,
+.sidebar-contacts_mail a,
+.sidebar-contacts .sidebar-contacts_terms,
+.sidebar-contacts p {
+    color: #7d7d7d;
+}
+
+.menu-item {
+    font-size: 1.286em;
+}
+
+.menu-item:hover, .active,
+.sidebar-contacts_mail a:hover,
+.sidebar-contacts_mail a:active {
+    color: #46999c !important;
+}
+
+.sidebar-contacts {
+    padding: 20px 0;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar-contacts p {
+    line-height: 10px;
+    font-size: 12px;
+}
+
+
+.sidebar-contacts_terms {
+    margin-top: auto;
+    padding-bottom: 53px;
+}
+
+.sidebar-contacts_terms span {
+    font-size: 12px;
+}
+
+
+/*=====================================*/
+/* МЕДИА-ЗАПРОСЫ
+/*=====================================*/
+
+@media only screen and (max-width: 768px) {
+    .sidebar-fixed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        overflow: hidden;
+        z-index: 10;
+        transition: 0.5s;
+        padding: 35px;
+    }
+
+    .sidebar-fixed-open {
+        width: auto;
+    }
+
+}
+
+@media only all and (max-width: 321px) and (max-height: 569px) {
+    .sidebar-contacts {
+        display: block;
+    }
+
+    .menu-header {
+        font-size: 27px;
+        line-height: 27px;
+        letter-spacing: 3px;
+    }
+
+    .menu-sub-header {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+}

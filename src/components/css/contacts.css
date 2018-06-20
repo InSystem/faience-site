@@ -1,0 +1,84 @@
+.contacts {
+    padding: 5px;
+    display: flex;
+}
+
+.contacts p {
+    font-size: 1.071em;
+    color: #4c4c4c;
+    line-height: 24px;
+}
+
+.form {
+    margin-top: 25px;
+    width: 90%;
+}
+
+#form-input-control-first-name {
+    width: 85% !important;
+}
+
+.contacts_form {
+    width: 430px;
+    margin-right: 25px;
+}
+
+.contacts_other {
+    width: 50%;
+}
+
+.masters-market a {
+    color: #46999c;
+}
+
+.masters-market a:hover {
+    color: #3d7e81;
+}
+
+.mail, .mail:hover  {
+    color: #4c4c4c;
+}
+
+#form-button-control-public {
+    border-radius: 0;
+}
+
+/*=====================================*/
+/* МЕДИА-ЗАПРОСЫ
+/*=====================================*/
+
+@media only all and (max-width: 1025px) {
+
+    .contacts {
+        flex-direction: column-reverse;
+    }
+
+    .contacts_form, .contacts_other {
+        width: 70%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only all and (max-width: 981px) {
+    .contacts_form, .contacts_other {
+        width: 85%;
+    }
+}
+
+@media only all and (max-width: 769px)  {
+    .contacts_form, .contacts_other {
+        width: 70%;
+    }
+}
+
+@media only all and (max-width: 601px) {
+    #form-input-control-first-name {
+        width: 100% !important;
+    }
+}
+
+@media only all and (max-width: 481px) {
+    .contacts_form, .contacts_other {
+        width: 90%;
+    }
+}

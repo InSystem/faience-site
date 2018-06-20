@@ -1,0 +1,64 @@
+/*!
+ * # Semantic UI undefined - Reset
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Reset
+*******************************/
+
+
+/* Border-Box */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* iPad Input Shadows */
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+/* mobile firefox too! */
+}
+
+/* Document
+   ========================================================================== */
+*,
+:after,
+:before {
+  -webkit-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+ul,
+menu,
+dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0 !important;
+  -webkit-margin-after: 0 !important;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0 !important;
+}
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

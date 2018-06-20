@@ -1,0 +1,149 @@
+body {
+    font-size: 14px;
+}
+
+.body-overflow {
+    overflow: hidden;
+}
+
+.app-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.app-header {
+    display: none;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 65px;
+    padding: 5px;
+    background-color: white;
+}
+
+.app-header-hidden {
+    visibility: hidden;
+}
+
+.bars {
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.sidebar {
+    padding: 50px 65px;
+    flex: 0 0 200px;
+    height: 88vh;
+    position: relative;
+}
+
+.route {
+    margin-top: 42px;
+    flex: 1 1 auto;
+}
+
+.overlay {
+    display: none;
+}
+
+/*=====================================*/
+/* МЕДИА-ЗАПРОСЫ
+/*=====================================*/
+
+@media only screen and (max-width: 768px) {
+    .app-header {
+        display: flex;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .app-container {
+        display: block;
+    }
+
+    .sidebar {
+        padding: 0;
+        left: -450px;
+        transition: 0.5s;
+        position: fixed;
+        width: 450px;
+        background-color: white;
+        z-index: 10;
+        height: 100%;
+    }
+
+    .sidebar-open {
+        left: 0;
+    }
+
+    .route {
+        margin: 0;
+    }
+
+    .overlay-open {
+        display: block;
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 150%;
+        overflow: hidden;
+        background-color: rgba(187, 187, 187, 0.76);
+    }
+
+
+    .icon-close {
+        position: fixed;
+        z-index: 15;
+    }
+
+    .logo {
+        font-size: 1.3em;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+}
+
+
+@media only all and (max-width: 481px) {
+    .sidebar {
+        left: -350px;
+        width: 350px;
+    }
+
+    .sidebar-open {
+        left: 0;
+    }
+}
+
+@media only all and (max-width: 415px) {
+    .sidebar {
+        left: -290px;
+        width: 290px;
+    }
+
+    .sidebar-open {
+        left: 0;
+    }
+}
+
+@media only all and (max-width: 376px)  {
+    i.icon.close {
+        right: 10px !important;
+    }
+}
+
+@media only all and (max-width: 321px) {
+    .sidebar {
+        left: -250px;
+        width: 250px;
+    }
+
+    .sidebar-open {
+        left: 0;
+    }
+}
+
+

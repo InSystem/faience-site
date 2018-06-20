@@ -1,0 +1,17 @@
+/*******************************
+         Site Settings
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Roboto Condensed';
+@fontSmoothing     : antialiased;
+
+@headerFont        : @fontName, 'Roboto Condensed', sans-serif;
+@pageFont          : @fontName, 'Roboto Condensed', sans-serif;
+
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '300,400,700';

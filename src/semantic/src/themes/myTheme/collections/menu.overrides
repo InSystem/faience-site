@@ -1,0 +1,27 @@
+/*******************************
+         Theme Overrides
+*******************************
+
+/*
+.ui.vertical.text.menu .header.item {
+line-height: 3.286em;
+}
+/*
+
+a.item.menu-item:hover,
+item.menu-item: active, .active {
+    color: #46999c;
+}
+
+.ui.vertical.text.menu .item {
+    margin: 6px 0;
+    color: #4c4c4c;
+    -o-transition:.15s;
+    -ms-transition:.15s;
+    -moz-transition:.15s;
+    -webkit-transition:.15s;
+    transition:.15s;
+}
+
+
+

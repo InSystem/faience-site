@@ -1,0 +1,9 @@
+/*!
+ * # Semantic UI undefined - Reset
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}html{-webkit-box-sizing:border-box;box-sizing:border-box}input[type=email],input[type=password],input[type=search],input[type=text]{-webkit-appearance:none;-moz-appearance:none}*,:after,:before{-webkit-box-sizing:content-box!important;box-sizing:content-box!important}dir,menu,ul{display:block;list-style-type:disc;-webkit-margin-before:0!important;-webkit-margin-after:0!important;-webkit-margin-start:0;-webkit-margin-end:0;-webkit-padding-start:0!important}
