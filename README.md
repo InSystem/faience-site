@@ -1,5 +1,5 @@
-# REACT SPA 
-Personal sculptor's site  width gallery based 
+# React SPA width gallery component
+Personal sculptor's site 
 
 ### Under the hood
   - React
